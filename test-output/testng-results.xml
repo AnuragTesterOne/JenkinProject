@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Mon Sep 04 13:16:22 IST 2023 : runner1 executed.]]>
+    </line>
+    <line>
+      <![CDATA[Mon Sep 04 13:16:32 IST 2023 : runner2 executed.]]>
+    </line>
+    <line>
+      <![CDATA[Mon Sep 04 13:16:42 IST 2023 : runner3 executed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-04T13:16:17 IST" name="Suite" finished-at="2023-09-04T13:16:42 IST" duration-ms="25195">
+    <groups>
+    </groups>
+    <test started-at="2023-09-04T13:16:17 IST" name="Test" finished-at="2023-09-04T13:16:42 IST" duration-ms="25195">
+      <class name="runner.Test1">
+        <test-method signature="runner1()[pri:1, instance:runner.Test1@3315d2d7]" started-at="2023-09-04T13:16:17 IST" name="runner1" finished-at="2023-09-04T13:16:32 IST" duration-ms="15057" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mon Sep 04 13:16:22 IST 2023 : runner1 executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runner1 -->
+        <test-method signature="runner2()[pri:2, instance:runner.Test1@3315d2d7]" started-at="2023-09-04T13:16:32 IST" name="runner2" finished-at="2023-09-04T13:16:42 IST" duration-ms="10015" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mon Sep 04 13:16:32 IST 2023 : runner2 executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runner2 -->
+        <test-method signature="runner3()[pri:3, instance:runner.Test1@3315d2d7]" started-at="2023-09-04T13:16:42 IST" name="runner3" finished-at="2023-09-04T13:16:42 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mon Sep 04 13:16:42 IST 2023 : runner3 executed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runner3 -->
+      </class> <!-- runner.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
