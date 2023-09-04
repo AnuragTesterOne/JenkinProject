@@ -15,7 +15,7 @@ public class Test1
 	{
 		Thread.sleep(5000);
 		date=new Date();
-		System.out.println(date+" : runner1 executed.");
+		System.out.println(date+"----------------------------1");
 		Reporter.log("<br>"+date+"----------------------------1"+"</br>");
 		Thread.sleep(10000);
 	}
@@ -24,7 +24,7 @@ public class Test1
 	public void runner2() throws Exception 
 	{
 		date=new Date();
-		System.out.println(date+" : runner2 executed.");
+		System.out.println(date+"=================================2");
 		Reporter.log("<br>"+date+"=================================2"+"</br>");
 		Thread.sleep(10000);
 	}
@@ -33,7 +33,7 @@ public class Test1
 	public void runner3() throws Exception 
 	{
 		date=new Date();
-		System.out.println(date+" : runner3 executed.");
+		System.out.println(date+"____________________________________________________3");
 		Reporter.log("<br>"+date+"____________________________________________________3"+"</br>");
 		throw new Exception("Failed due to ..................................");
 	}
